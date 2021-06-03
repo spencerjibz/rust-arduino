@@ -1,0 +1,11 @@
+/home/pi/Desktop/Rust/rust-arduino/target/avr-atmega328p/release/deps/atmega328p_hal-7bdfba11de1c84dc.rmeta: /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/lib.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/port.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/adc.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/pwm.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/wdt.rs
+
+/home/pi/Desktop/Rust/rust-arduino/target/avr-atmega328p/release/deps/libatmega328p_hal-7bdfba11de1c84dc.rlib: /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/lib.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/port.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/adc.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/pwm.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/wdt.rs
+
+/home/pi/Desktop/Rust/rust-arduino/target/avr-atmega328p/release/deps/atmega328p_hal-7bdfba11de1c84dc.d: /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/lib.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/port.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/adc.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/pwm.rs /home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/wdt.rs
+
+/home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/lib.rs:
+/home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/port.rs:
+/home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/adc.rs:
+/home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/pwm.rs:
+/home/pi/.cargo/git/checkouts/avr-hal-f3855d5807fdfd57/885e8ec/chips/atmega328p-hal/src/wdt.rs:

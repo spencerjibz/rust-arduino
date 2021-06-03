@@ -1,0 +1,12 @@
+/home/pi/Desktop/Rust/rust-arduino/target/release/deps/proc_macro2-ecdd3a2a077a17b9.rmeta: /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/lib.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/marker.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/parse.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/detection.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/fallback.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/wrapper.rs
+
+/home/pi/Desktop/Rust/rust-arduino/target/release/deps/libproc_macro2-ecdd3a2a077a17b9.rlib: /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/lib.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/marker.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/parse.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/detection.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/fallback.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/wrapper.rs
+
+/home/pi/Desktop/Rust/rust-arduino/target/release/deps/proc_macro2-ecdd3a2a077a17b9.d: /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/lib.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/marker.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/parse.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/detection.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/fallback.rs /home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/wrapper.rs
+
+/home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/lib.rs:
+/home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/marker.rs:
+/home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/parse.rs:
+/home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/detection.rs:
+/home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/fallback.rs:
+/home/pi/.cargo/registry/src/github.com-1285ae84e5963aae/proc-macro2-1.0.27/src/wrapper.rs:
