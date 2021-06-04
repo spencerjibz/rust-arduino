@@ -92,6 +92,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "lcd"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cef3ba0e6734d1a71d7f7fc98f78a6897f5115ec2467e435d36c324649d5f4b3"
+
+[[package]]
 name = "nb"
 version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -150,6 +156,7 @@ dependencies = [
  "atmega328p-hal",
  "dht11",
  "embedded-hal",
+ "lcd",
  "nb 1.0.0",
  "panic-halt",
  "ufmt",

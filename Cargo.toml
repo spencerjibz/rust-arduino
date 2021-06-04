@@ -12,6 +12,7 @@ edition = "2018"
 # The `leonardo-panic` example shows a more elaborate version.
 panic-halt = "0.2.0"
 
+lcd = "0.3.0"
 dht11 = "0.3.1"
 ufmt = "0.1.0"
 nb = "1.0.0"

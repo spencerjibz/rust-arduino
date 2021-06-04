@@ -11,9 +11,67 @@ use arduino_uno::prelude::*;
 use dht11::Dht11;
 extern crate  ufmt;
 extern crate nb;
+use arduino_uno::i2cMaster;
 use atmega328p_hal::{delay,clock};
+use lcd::{Delay,Hardware};
+// create a pcfdriver
+struct Pcf8574 { 
+pub dev:i2cMaster,
+pub data:u8,
+
+}
+// implement traits for dis
+imp Pcf8574 { 
+
+    pub fn new(dev) -> Self { 
+        Pcf8574 { 
+            dev,
+            data:data: 0b0000_1000, // backlight on by default
+        }
+    }
+
+    pub fn backlight(&mut self,on:bool) { 
+        self.set_bit(2,on);
+        self.apply();
+    }
 
 
+    fn set_bit(&mut self,offset:u8,bit:bool) { 
+        if bit {
+            self.data |= 1 << offset;
+        } else {
+            self.data &= !(1 << offset);
+        }
+    }
+
+}
+
+impl Hardware for Pcf8574 { 
+    fn rs(&mut self, bit: bool) {
+        self.set_bit(0, bit);
+    }
+
+    fn enable(&mut self, bit: bool) {
+        self.set_bit(2, bit);
+    }
+
+    fn data(&mut self, bits: u8) {
+        assert!(bits & 0xF0 == 0, "4-bit mode is required");
+        self.data = (self.data & 0x0F) | (bits << 4);
+    }
+
+    fn apply(&mut self) {
+        // No error handling.
+        let _ = self.dev.smbus_write_byte(self.data);
+    }
+
+
+}
+impl Delay for Pcf8574 { 
+    fn delay_us(&mut self,delay:u16) { 
+        arduino_uno::delay_ms(delay);
+    }
+}
 #[arduino_uno::entry]
 fn main() -> ! {
     let peripherals = arduino_uno::Peripherals::take().unwrap();
